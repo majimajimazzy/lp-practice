@@ -70,15 +70,60 @@ header{
   margin-left: auto;
 }
 .common-title{
-  padding-top: 20px;
-  padding-bottom: 35px;
   font-size: 40px;
   letter-spacing: 10px;
   font-weight: bold;
+  text-align: center;
+}
+.news-title{
+  padding-top: 20px;
+  padding-bottom: 35px;
 }
 .news-subtitle{
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
   padding-right: 20px;
+}
+
+.skills{
+  background-color: #fff;
+}
+.skills-title{
+  padding-top: 50px;
+}
+.skills-icon img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.photo{
+  padding-left: 150px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.flower{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.data{
+  padding-left: 50px;
+}
+.location{
+  padding-left: 150px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.calender{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.security{
+  padding-left: 50px;
 }
