@@ -91,16 +91,38 @@ header{
 }
 .skills-title{
   padding-top: 50px;
+  padding-bottom: 25px;
+}
+.skills-icon{
+  display: flex;
+  flex-wrap: wrap;
 }
 .skills-icon img{
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  text-align: center;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+/*
+.skills-icon img:nth-child(3n+1){
+  margin-left: 0px;
+  padding-left: 50px;
+  padding-right:50px;
 }
 
+.skills-icon img:nth-child(3n+2){
+  margin: auto;
+  padding-left: 50px;
+  padding-right:50px;
+}
+
+.skills-icon img:nth-child(3n){
+  padding-left: 50px;
+  padding-right:50px;
+  margin-right: 0px;
+}
+*/
+/*
 .photo{
   padding-left: 150px;
   padding-right: 50px;
@@ -127,3 +149,4 @@ header{
 .security{
   padding-left: 50px;
 }
+*/
