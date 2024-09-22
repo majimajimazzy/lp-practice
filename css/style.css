@@ -97,7 +97,11 @@ header{
   display: flex;
   flex-wrap: wrap;
 }
-.skills-icon img{
+.sicon{
+  width: 300px;
+  height: 300px;
+}
+.skills-icon a{
   width: 300px;
   height: 300px;
   margin: 0 auto;
@@ -114,7 +118,7 @@ header{
 
 .plan-table{
   display: flex;
-  justify-content: center;    
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
@@ -143,3 +147,24 @@ tbody tr:nth-child(even){
   background-color: #e0efff;
 }
 
+.all-sns{
+  background-color: #e3f2fd;
+  padding: 200px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sns-icon {
+  padding: 25px 0;
+  overflow: hidden;
+  font-size: 40px;
+}
+.fab{
+  width: 185px;
+  color: #8c8c8c;
+}
+.fas{
+  width: 185px;
+  color: #8c8c8c;
+}
