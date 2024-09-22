@@ -103,50 +103,43 @@ header{
   margin: 0 auto;
   padding: 25px 0;
 }
-/*
-.skills-icon img:nth-child(3n+1){
-  margin-left: 0px;
-  padding-left: 50px;
-  padding-right:50px;
+
+.plan{
+  background-color: #d0dfea;
+  padding: 50px 0;
+}
+.common-title h5{
+  padding-bottom: 50px;
 }
 
-.skills-icon img:nth-child(3n+2){
-  margin: auto;
-  padding-left: 50px;
-  padding-right:50px;
+.plan-table{
+  display: flex;
+  justify-content: center;    
+  align-items: center;
+  text-align: center;
+}
+table{
+  width: 90%;
+}
+thead th{
+  padding: 10px;
+  background-color: #6ba7eb;
+  font-size: 16px;
+  line-height: 26px;
+  border-left: 2px solid #fff;
+}
+tbody td{
+  padding: 10px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.PLAN{
+  font-weight: bold;
+}
+tbody tr:nth-child(odd){
+  background-color: #f9f9f9;
+}
+tbody tr:nth-child(even){
+  background-color: #e0efff;
 }
 
-.skills-icon img:nth-child(3n){
-  padding-left: 50px;
-  padding-right:50px;
-  margin-right: 0px;
-}
-*/
-/*
-.photo{
-  padding-left: 150px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-}
-.flower{
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-}
-.data{
-  padding-left: 50px;
-}
-.location{
-  padding-left: 150px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-}
-.calender{
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-}
-.security{
-  padding-left: 50px;
-}
-*/
