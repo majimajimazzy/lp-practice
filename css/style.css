@@ -160,11 +160,18 @@ tbody tr:nth-child(even){
   overflow: hidden;
   font-size: 40px;
 }
-.fab{
+.icon{
   width: 185px;
   color: #8c8c8c;
 }
-.fas{
-  width: 185px;
-  color: #8c8c8c;
+
+footer{
+  padding: 25px;
+  text-align: right;
+}
+footer p{
+  padding: 25px 50px;
+  letter-spacing: 0.5px;
+  font-size: 13px;
+  background-color: #cfd8dc;
 }
