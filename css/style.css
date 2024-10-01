@@ -1,26 +1,28 @@
 @charset "utf-8";
-*{
+.inner{
   max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
 }
+
 
 header{
   background-color:#fff;
+  height: 78px;
 }
 .header-icon{
   float: left;
-  padding: 15px 0 15px 75px;
+  margin: 15px 0 15px 75px;
   color:#777;
 }
-
 .contact-btn a{
   float: right;
-  display: inline-block;
   background-color: #6ba7eb;
   text-align: center;
   line-height: 48px;
   width: 100px;
   height: 48px;
-  margin: 15px 30px 15px 0;
+  margin: 15px 15px 15px 0;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -32,15 +34,20 @@ header{
   color: #333;
 }
 
-.keyvisual img{
+.keyvisual-image{
   width: 100%;
-  height: 800px;
-  position: relative;
+  background-image: url('../images/keyvisual/keyvisual.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 400px 0;
 }
 
-.title{
+.title {
   position: absolute;
   top: 400px;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
   width: 100%;
 }
@@ -56,10 +63,12 @@ header{
   color: #fff;
 }
 
-.news{
+.newses{
+  width: 100%;
+  background-color: #e3f2fd;
   padding-top: 50px;
   height: 208px;
-  background-color: #e3f2fd;
+  margin: 0 auto;
 }
 .news-icon{
   width: 40%;
@@ -76,6 +85,7 @@ header{
   width: 60%;
   margin-left: auto;
 }
+
 .common-title{
   font-size: 40px;
   letter-spacing: 10px;
@@ -119,9 +129,9 @@ header{
   opacity: 1.0;
 }
 
-
-.plan{
+.planning{
   background-color: #d0dfea;
+  width: 100%;
   padding: 50px 0;
 }
 .common-title h5{
@@ -143,6 +153,9 @@ thead th{
   font-size: 16px;
   line-height: 26px;
   border-left: 2px solid #fff;
+}
+thead th:nth-child(1){
+  border-left: none;
 }
 tbody td{
   padding: 10px;
@@ -184,8 +197,9 @@ tbody tr:nth-child(even){
 footer{
   padding: 25px;
   text-align: right;
+  width: 100%;
 }
-footer p{
+.Copyright{
   padding: 25px 50px;
   letter-spacing: 0.5px;
   font-size: 13px;
