@@ -34,7 +34,7 @@ header{
   color: #333;
 }
 
-.keyvisual-image{
+.keyvisual{
   width: 100%;
   background-image: url('../images/keyvisual/keyvisual.jpg');
   background-size: cover;
@@ -44,12 +44,11 @@ header{
 }
 
 .title {
-  position: absolute;
   top: 400px;
   left: 50%;
-  transform: translateX(-50%);
   text-align: center;
   width: 100%;
+  z-index: 10;
 }
 .main-title{
   font-size: 65px;
@@ -63,9 +62,10 @@ header{
   color: #fff;
 }
 
-.newses{
-  width: 100%;
+.news{
   background-color: #e3f2fd;
+}
+.newses{
   padding-top: 50px;
   height: 208px;
   margin: 0 auto;
@@ -129,15 +129,16 @@ header{
   opacity: 1.0;
 }
 
-.planning{
+.plan{
   background-color: #d0dfea;
+}
+.planning{
   width: 100%;
   padding: 50px 0;
 }
 .common-title h5{
   padding-bottom: 50px;
 }
-
 .plan-table{
   display: flex;
   justify-content: center;
@@ -172,8 +173,10 @@ tbody tr:nth-child(even){
   background-color: #e0efff;
 }
 
-.all-sns{
+.sns{
   background-color: #e3f2fd;
+}
+.all-sns{
   padding: 200px 0;
   display: flex;
   justify-content: center;
@@ -194,14 +197,16 @@ tbody tr:nth-child(even){
   color: #fff;
 }
 
-footer{
-  padding: 25px;
+.footers{
   text-align: right;
-  width: 100%;
+  background-color: #cfd8dc;
 }
+
 .Copyright{
   padding: 25px 50px;
   letter-spacing: 0.5px;
   font-size: 13px;
+  /*
   background-color: #cfd8dc;
+  */
 }
