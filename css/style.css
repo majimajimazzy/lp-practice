@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 .inner{
   max-width: 1100px;
   margin: 0 auto;
@@ -33,6 +34,7 @@ header{
 .contact:hover{
   color: #333;
 }
+
 
 .keyvisual{
   width: 100%;
@@ -178,15 +180,15 @@ tbody tr:nth-child(even){
 }
 .all-sns{
   padding: 200px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 .sns-icon {
   padding: 25px 0;
   overflow: hidden;
   font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .icon{
   width: 185px;
@@ -206,7 +208,69 @@ tbody tr:nth-child(even){
   padding: 25px 50px;
   letter-spacing: 0.5px;
   font-size: 13px;
-  /*
-  background-color: #cfd8dc;
-  */
+}
+
+@media(max-width:1199px){
+  .keyvisual{
+    padding: 250px 0;
+  }
+  .newses{
+    padding: 50px 0;
+    height: 350px;
+  }
+  .news-icon{
+    width: 100%;
+    text-align: center;
+  }
+  .news-icon img{
+    float: none;
+    padding: 0;
+  }
+  .news-text{
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+  .news-subtitle{
+    padding: 0 30px;
+  }
+  .skills-icon{
+    flex-direction: column;
+  }
+  .skills-icon a{
+    padding: 0;
+  }
+  .skills-icon a:nth-child(3n){
+    padding-bottom: 80px;
+  }
+}
+
+@media(max-width:767px){
+  .keyvisual{
+    padding: 200px 0;
+  }
+  .main-title{
+    font-size: 40px;
+  }
+  .sub-title{
+    font-size: 30px;
+  }
+  .contact{
+    display: none;
+  }
+  thead th{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  tbody td{
+    font-size: 12px;
+  }
+  .sns-icon{
+    width: 100%;
+    flex-direction: column;
+  }
+  .icon{
+    padding: 25px 15px;
+  }
 }
