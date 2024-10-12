@@ -36,6 +36,7 @@ header{
 }
 
 
+
 .keyvisual{
   width: 100%;
   background-image: url('../images/keyvisual/keyvisual.jpg');
@@ -208,7 +209,11 @@ tbody tr:nth-child(even){
   letter-spacing: 0.5px;
   font-size: 13px;
 }
-
+@media(min-width:768px){
+  .humberger{
+    display: none;
+  }
+}
 @media(max-width:1199px){
   .keyvisual{
     padding: 250px 0;
