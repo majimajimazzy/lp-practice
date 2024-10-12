@@ -247,6 +247,11 @@ tbody tr:nth-child(even){
 }
 
 @media(max-width:767px){
+  .hicon{
+    float: right;
+    margin: 15px 75px 15px 0;
+    color:#777;
+  }
   .keyvisual{
     padding: 200px 0;
   }
