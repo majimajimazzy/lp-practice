@@ -68,8 +68,7 @@ header{
   background-color: #e3f2fd;
 }
 .newses{
-  padding-top: 50px;
-  height: 208px;
+  padding: 50px 0;
   margin: 0 auto;
 }
 .news-icon{
@@ -216,7 +215,6 @@ tbody tr:nth-child(even){
   }
   .newses{
     padding: 50px 0;
-    height: 350px;
   }
   .news-icon{
     width: 100%;
@@ -263,6 +261,9 @@ tbody tr:nth-child(even){
   }
   .contact{
     display: none;
+  }
+  .newses{
+    padding: 50px 0;
   }
   thead th{
     font-size: 14px;
